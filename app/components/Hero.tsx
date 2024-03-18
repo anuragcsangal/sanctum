@@ -32,7 +32,7 @@ const Hero = (props: Props) => {
           className="grid grid-cols-2 grid-rows-1 md:grid-cols-1 md:grid-rows-2">
             <Link href="#about" 
              className={`${hydrogen.className} text-4xl md:text-6xl h-[100%] w-full flex justify-center items-center border border-neutral-200`}>About</Link>
-            <Link href="#projects" className={`${hydrogen.className} text-4xl md:text-6xl h-[100%] w-full flex justify-center items-center border border-neutral-200`}>Projects</Link>
+            <Link href="#projects" className={`${hydrogen.className} text-3xl md:text-6xl h-[100%] w-full flex justify-center items-center border border-neutral-200`}>Projects</Link>
           </motion.div>
       </motion.section>
   )
